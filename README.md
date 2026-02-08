@@ -1,3 +1,5 @@
+![DC Net Shell Banner](dcshell.png)
+
 # Discord Bot Builder
 
 A Python-based Discord bot generator that allows system monitoring, automation, and remote command execution. This project is intended for **educational purposes** and should only be used on computers you own or have explicit permission to access. **Unauthorized use is illegal.**
