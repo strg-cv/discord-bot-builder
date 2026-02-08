@@ -40,8 +40,22 @@ A Python-based Discord bot generator that allows system monitoring, automation, 
 
 ---
 
-## Installation
+## How to Get Started
 
-1. Clone this repository:
+### 1. Create a Discord Bot
+- Go to the [Discord Developer Portal](https://discord.com/developers/applications).  
+- Click **New Application → Bot → Add Bot**.  
+- Copy the **Bot Token** (keep it secret!).
+
+### 2. Invite the Bot to Your Server
+- Use **OAuth2 → URL Generator → bot** scope, set permissions, open generated URL, and add bot to your server.
+
+### 3. Get Your Channel ID
+- Enable **Developer Mode** in Discord settings.  
+- Right-click your channel → **Copy ID**.  
+
+### 4. Run the Bot Generator
 ```bash
 git clone https://github.com/yourusername/discord-bot-builder.git
+cd discord-bot-builder
+python bot_generator.py
